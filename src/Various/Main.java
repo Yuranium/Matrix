@@ -1,8 +1,10 @@
+package Various;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class Main
 {
-    public static int[][] matrixFunc(Scanner sc) throws NumberFormatException
+    public static int[][] matrixFunc(final Scanner sc) throws NumberFormatException
     {
         int num, size, sizeNum;
         int[][] matrix;
